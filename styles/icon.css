@@ -1,0 +1,70 @@
+/* icon */
+
+.icon-players,
+.icon-obstacles,
+.icon-weapons {
+    position: absolute;
+    top: 0; left: 0;
+    z-index: 1;
+}
+
+/* icon-player */
+
+.player-one,
+.player-two {
+    width: 103px; 
+    height: 47px;
+    z-index: 3;
+}
+
+.player-one { background: url('../imgs/playerUn.svg') center center / 100% 100% }
+.player-two { background: url('../imgs/playerDeux.svg') center center / 100% 100% }
+
+/* icon-obstacle */
+
+.icon-obstacles { 
+    width: 77px; 
+    height: 77px;
+    z-index: 2;
+}
+
+.icon-obstacles.bush-one   { background: url('../imgs/obstaclesUn.svg') center center / 100% 100% }
+.icon-obstacles.bush-two   { background: url('../imgs/obstaclesDeux.svg') center center / 100% 100% }
+.icon-obstacles.bush-three { background: url('../imgs/obstaclesTrois.svg') center center / 100% 100% }
+.icon-obstacles.bush-four  { background: url('../imgs/obstaclesQuatre.svg') center center / 100% 100% }
+
+/* icon-weapon */
+
+.icon-weapons.kitchen-knife {
+    background: url('../imgs/weaponCouteauDeCuisine.svg') center center / 100% 100%;
+    width: 60px; 
+    height: 8px;
+    transform: rotate(45deg);
+}
+
+.icon-weapons.combat-knife {
+    background: url('../imgs/weaponCouteauDeCombat.svg') center center / 100% 100%;
+    width: 70px; 
+    height: 12px;
+    transform: rotate(135deg);
+}
+
+.icon-weapons.dagger {
+    background: url('../imgs/weaponKunai.svg') center center / 100% 100%;
+    width: 90px; 
+    height: 12px;
+
+    transform: rotate(225deg);
+}
+
+.icon-weapons.sword {
+    background: url('../imgs/weaponFleuret.svg') center center / 100% 100%;
+    width: 149px; 
+    height: 24px;
+}
+
+.icon-weapons.trilance {
+    background: url('../imgs/weaponTrilance.svg') center center / 100% 100%;
+    width: 219px; 
+    height: 36px;
+}

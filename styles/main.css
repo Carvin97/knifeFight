@@ -1,0 +1,45 @@
+table { 
+    border-collapse: collapse;
+    width: 803px;
+    margin: auto;
+}
+
+td, th { 
+    border: 1px solid black;
+    height: 70px;
+    width: 70px;
+}
+
+.knifeFight-dashboard {
+    width: 803px;
+    margin: auto;
+}
+
+.knifeFight-dashboard h1 {
+    text-align: center;
+    margin: 0;
+
+    border-left: 1px solid black;
+    border-right: 1px solid black;
+}
+
+.knifeFight-dashboard h2 {
+    text-align: center;
+    margin: 0;
+}
+
+.dashboard-section { 
+    display: flex;
+}
+
+.dashboard-section > div {
+    border: 1px solid black;
+    flex: 1;
+}
+
+#knifeFight-skip-btn {
+    display: block;
+    width: 130px;
+    height: 40px;
+    margin: 10px auto;
+}
